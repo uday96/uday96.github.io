@@ -1,94 +1,126 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Uday Theja",
+    "label": "Software Developer",
+    "picture": "/images/Uday.jpg",
+    "email": "udayteja96@gmail.com",
+    "phone": "+91-9940469994",
+    "website": "https://uday96.github.io",
+    "summary": "Working as a Software Developer at Nutanix, Banglore. Graduated in 2019 with a B.Tech and M.tech in Computer Science & Engineering from IIT Madras.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "500090",
+      "city": "Hyderabad",
+      "countryCode": "India",
+      "region": "Telangana"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "uday96",
+        "url": "http://github.com/uday96"
+      },
+      {
+        "network": "bitbucket",
+        "username": "uday96",
+        "url": "http://bitbucket.com/uday96"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "uday-theja",
+        "url": "http://linkedin.com/in/uday-theja"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "udayteja96",
+        "url": "http://twitter.com/udayteja96"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "udaytheja",
+        "url": "http://instagram.com/udaytheja"
+      },
+      {
+        "network": "facebook",
+        "username": "uday.theja.0",
+        "url": "http://www.facebook.com/uday.theja.0"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial Intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Data Analytics",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "C",
         "C++",
         "Java",
         "Javascript",
+        "Python",
+        "R",
+        "Matlab",
+        "x86",
         "Assembly",
-        "Common Lisp"
+        "Verilog",
+        "SQL",
+        "HTML",
+        "CSS"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
         "Ubuntu",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "LATEX"
+      ]
+    },
+    {
+      "name": "Libraries & Frameworks",
+      "level": "",
+      "keywords": [
+        "NLTK",
+        "Tensorflow",
+        "Theano",
+        "CUDA",
+        "OpenMP",
+        "OpenMPI",
+        "Django",
+        "ReactJS",
+        "Teradata"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "institution": "Indian Institute of Technology, Madras",
+      "area": "B.Tech. & M.Tech. in Computer Science & Engineering",
+      "startDate": "2014",
+      "endDate": "2019",
+      "CGPA": "8.19",
       "courses": [
       ]
     }
