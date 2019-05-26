@@ -35,9 +35,7 @@
             {% endfor %}
         </div>
       </div>
-      <div class="center aligned extra content">
-        {% include home-network-links.html %}
-      </div>
+
       <div class="center aligned content">
         <a href="{{ site.baseurl}}/projects/">
           <button class="ui basic button">Projects</button>
@@ -50,6 +48,19 @@
         </a>
       </div>
     </div>
+
+    <div class="ui fluid centered card"
+      style="
+        max-width: 500px;
+        margin-top: 0px;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none;"
+    >
+        <div id="links-container" class="center aligned content" style="margin: 10px;">
+          {% include home-network-links.html %}
+        </div>
+    </div> 
   </div>
 
 </div>

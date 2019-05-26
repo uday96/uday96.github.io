@@ -1,0 +1,20 @@
+<!-- Always create iframes to embed videos if present. See: http://semantic-ui.com/modules/embed.html -->
+
+<div class='myfooter'
+	style="
+		width: 100vw;
+		border-top: 2px solid rgba(34,36,38,.15);
+		margin-top: 30px;
+		text-align: center;
+		padding: 20px;
+		background-color: white;"
+>
+	{% for profile in site.data.bio.basics.profiles %}
+	  <a href="{{ profile.url }}" target="_blank"> <i class="big {{ profile.network | downcase }} icon icon-color" style="font-size: 2em;"></i> </a>
+	{% endfor %}
+
+	{% if site.data.bio.basics.email %}
+	  <a href="mailto:{{ site.data.bio.basics.email }}"> <i class="big mail square icon icon-color" style="font-size: 2em;"></i> </a>
+	{% endif %}	
+	<br>
+</div>
