@@ -1,13 +1,45 @@
 <!-- Used by theme-bio-builtin-1,2 -->
 
-{% if site.data.bio.basics.website %}
-  <p class="ui no-bottom"><a href="{{ site.data.bio.basics.website }}"> <i class="large home icon "></i>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</a></p>
-{% endif %}
+<div style=" margin-top: 0px;
+	margin-bottom: 15px !important;"
+>
+	{% if site.data.bio.basics.website %}
+	  <div class="ui center aligned no-bottom"
+	  	style="
+	    	margin: 6px;
+	    	margin-top: 0px !important;" 
+	  >
+	  	<a href="{{ site.data.bio.basics.website }}"  target="_blank">
+	  		<i class="large home icon "></i>
+	  		<b>{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}</b>
+	  	</a>
+	  </div>
+	{% endif %}
 
-{% if site.data.bio.basics.email %}
-<p class="ui no-bottom"><a href="mailto:{{ site.data.bio.basics.email }}"> <i class="large mail outline icon "></i>{{ site.data.bio.basics.email }}</a></p>
-{% endif %}
+	{% if site.data.bio.basics.email %}
+	<div class="ui center aligned no-bottom"
+		style="
+	    	margin: 6px;" 
+	>
+		<a href="mailto:{{ site.data.bio.basics.email }}"  target="_blank">
+			<i class="large mail outline icon "></i>
+			<b>{{ site.data.bio.basics.email }}</b>
+		</a>
+	</div>
+	{% endif %}
 
-{% for entry in site.data.bio.basics.profiles %}
+	<div class="ui center aligned no-bottom"
+		style="
+	    	margin: 15px;" 
+	>
+		<a href="{{ site.data.bio.basics.resume }}" download="">
+			<button class="ui positive button">
+				<i class="download  large icon icon-color inverted" style="font-size: 1.3em"></i>PDF
+			</button>
+		</a>
+	</div>
+</div>
+
+<!-- {% for entry in site.data.bio.basics.profiles %}
      <p class="ui no-bottom"><a href="{{ entry.url }}"> <i class="large {{ entry.network | downcase }} icon "></i>{{ entry.username }}</a></p>
-{% endfor %}
+{% endfor %} -->
