@@ -1,24 +1,46 @@
 <!-- Used by theme-projects-custom, entire card is the link. -->
 
 
-<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}"
+  style="
+    overflow: hidden;
+    background-image: url({{ site.baseurl }}/{{ include.page.image }});
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" 
+>
   {% if include.page.image %}
-  <div class="image">
-    <img src="{{ site.baseurl }}/{{ include.page.image }}">
+  <div class="image"
+    style="
+      height: 45px;
+      z-index: 1;"
+  >    
   </div>
   {% endif %}
-  <div class="content">
+  <div class="content"
+    style="
+      background-color: rgba(255,255,255,0.9);
+      z-index: 1;"
+  >
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
       <span class="date">{{ include.page.date }}</span>
     </div>
 
-    <div class="description">
+    <div class="description"
+      style="
+        font-weight: 500;" 
+    >
       {{ include.page.summary }}
     </div>
   </div>
 
-  <div class="extra content">
+  <div class="extra content"
+    style="
+      background-color: rgba(255,255,255,0.9);
+      z-index: 1;" 
+  >
     <div class="ui mini labels">
       {% for label in include.page.labels %}
       <div class="ui basic label">{{ label }}</div>

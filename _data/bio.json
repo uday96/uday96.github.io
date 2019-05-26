@@ -120,76 +120,187 @@
       "area": "B.Tech. & M.Tech. in Computer Science & Engineering",
       "startDate": "2014",
       "endDate": "2019",
-      "CGPA": "8.19",
+      "score": "CGPA: 8.19",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Narayana Junior College, Hyderabad",
+      "area": "XIIth Std. (AP State Board)",
+      "startDate": "2012",
+      "endDate": "2014",
+      "score": "Percentage: 98.7%",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Bharatiya Vidya Bhavan Public School, Hyderabad",
+      "area": "Xth Std. (CBSE)",
+      "startDate": "2002",
+      "endDate": "2012",
+      "score": "CGPA: 10.0",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
+      "company": "Nutanix, Banglore",
       "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "website": "https://www.nutanix.com",
+      "startDate": "Jul 2019",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
-  "awards": [
+  "internships": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "company": "Indian Institute Of Technology, Hyderabad",
+      "position": "Research Intern",
+      "area": "Distributed Machine Learning",
+      "location": "Hyderabad",
+      "website": "https://www.iith.ac.in/~ckm/",
+      "startDate": "Dec 2017",
+      "endDate": "Jan 2018",
+      "summary": "",
+      "highlights": [
+        "Worked under the guidance of Dr. C. Krishna Mohan, Associate Professor, CSE department , IIT Hyderabad.",
+        "Implemented a distribution preserving kernel support vector machine which retains the first and second order statistics of the entire dataset in each of the local partitions.",
+        "Implemented distributed parallel algorithms for the existing sequential K-Means++ and GMM algorithms for big data."
+      ]
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "company": "FOSSASIA",
+      "position": "Google Summer Of Code 2017",
+      "area": "ReactJS Developer",
+      "location": "Work From Home",
+      "website": "https://summerofcode.withgoogle.com/archive/2017/projects/4703316948811776/",
+      "startDate": "May 2017",
+      "endDate": "Aug 2017",
+      "summary": "",
+      "highlights": [
+        "Developed a web application capable of chat and voice interaction, for SUSI.AI, an intelligent open source personal assistant which uses custom defined skills to reply to user queries and also has different personalization features.",
+        "Auto deployed the server on Google Cloud with Kubernetes such that on every commit pushed to the github repository, using Travis CI, a new docker image is built and the docker hub image and cloud deployment get updated."
+      ]
+    },
+    {
+      "company": "American Express",
+      "position": "Data Analytics Intern",
+      "area": "Data Analysis and Machine Learning, R language",
+      "location": "Gurgaon",
+      "website": "https://www.americanexpress.com/in/",
+      "startDate": "May 2017",
+      "endDate": "Jul 2017",
+      "summary": "",
+      "highlights": [
+        "Using the past FICO scores of a card member, predicted FICO score in the future, by building different models using Time Series Analysis and Machine Learning Techniques like: ETS, ARIMA, Regression, Neural Networks.",
+        "Received a Pre-Placement Offer."
+      ]
+    },
+    {
+      "company": "MyAlly.ai (Formerly Skedool.it)",
+      "position": "Web Development Intern",
+      "area": "Django developer",
+      "location": "Hyderabad",
+      "website": "https://www.myally.ai/",
+      "startDate": "May 2016",
+      "endDate": "Jul 2016",
+      "summary": "",
+      "highlights": [
+        "Worked on an AI powered assistant which automates scheduling of meetings through emails.",
+        "Developed the backend for email interface, creating and editing calendar events using GMAIL and Nylas APIs.",
+        "Created a facebook messenger bot which uses webhooks to reply to a customer."
+      ]
+    }
+  ],
+  "pors": [
+    {
+      "organization": "Programming and Data Structures Lab, CSE Department, IIT Madras",
+      "position": "Teaching Assistant",
+      "website": "http://www.cse.iitm.ac.in/~jayalal/teaching/home.php?courseid=53",
+      "startDate": "Jul 2018",
+      "endDate": "Nov 2018",
+      "summary": "",
+      "highlights": [
+        "Teaching Assistant for Programming and Data Structures Lab"
+      ]
+    },
+    {
+      "organization": "Exebit - 2018, IIT Madras",
+      "position": "WebOps (Web Operations) Core",
+      "website": "http://exebit.in/",
+      "startDate": "Sep 2017",
+      "endDate": "Feb 2018",
+      "summary": "",
+      "highlights": [
+        "Exebit is the annual technical fest of CSE Department, IIT Madras.",
+        "I was head of the WebOps (Web Operations) team responsible for creating and maintaining the fest website."
+      ]
+    },
+    {
+      "organization": "Saarang - 2016, IIT Madras",
+      "position": "Hospitality Coordinator",
+      "website": "https://www.saarang.org/",
+      "startDate": "Aug 2015",
+      "endDate": "Jan 2016",
+      "summary": "",
+      "highlights": [
+        "Saarang is the annual cultural fest of IIT Madras.",
+        "Part of a team of 30, coordinating the participant registrations and ensuring a pleasant stay for the participants."
+      ]
+    },
+    {
+      "organization": "Shaastra - 2016, IIT Madras",
+      "position": "Finance And Sales Coordinator",
+      "website": "https://www.shaastra.org/",
+      "startDate": "Aug 2015",
+      "endDate": "Jan 2016",
+      "summary": "",
+      "highlights": [
+        "Shaastra is the annual technical fest of IIT Madras.",
+        "Part of a team of 20, responsible for design and management of Shaastra goodies and t-shirts."
+      ]
+    },
+    {
+      "organization": "Placement Team, IIT Madras",
+      "position": "Deputy Placement Coordinator, CSE Department",
+      "website": "http://placement.iitm.ac.in/",
+      "startDate": "Aug 2015",
+      "endDate": "Apr 2016",
+      "summary": "",
+      "highlights": [
+        "Handling the annual Placement season at IIT Madras, held in December.",
+        "Coordinating with various companies and inviting them to come to recruit from the campus directly."
+      ]
+    },
+    {
+      "organization": "MITR (Mentoring for Individual Transformation), IIT Madras",
+      "position": "MITR Mentor",
+      "website": "https://dost.iitm.ac.in/mitrdemo/",
+      "startDate": "Aug 2015",
+      "endDate": "Apr 2016",
+      "summary": "",
+      "highlights": [
+        "MITR is an initiative aimed at guiding and counseling students during their stay at IIT Madras.",
+        "MITR also organizes various activities in relation to the orientation of fresh students to IITM life.",
+        "Mentor for 7 first year students."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "JEE-Advanced 2014",
+      "summary": "Secured All India Rank 334 in JEE-Advanced 2014 (formerly IIT-JEE) examination."
+    },
+    {
+      "title": "JEE Mains 2014",
+      "summary": "Secured All India Rank 58 in JEE Mains 2014."
+    },
+    {
+      "title": "EAMCET 2014",
+      "summary": "Secured State Rank 137 in EAMCET 2014, Andhra Pradesh Engineering Entrance Test."
     }
   ],
   "references": [

@@ -1,0 +1,51 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.internships %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Internships</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    {% for entry in site.data.bio.internships %}
+
+    <div class="ui grid">
+      <div class="twelve wide column no-bottom">
+        <p class="ui no-bottom"><b>{{ entry.position }}</b></p>
+        <p class="ui no-bottom">{{ entry.company }}</p>
+        <p class="ui no-bottom"><i>{{ entry.area }}</i></p>
+        <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website |  remove: "http://" | remove: "https://"
+          }}</a></p>
+        <p class="ui no-bottom">{{ entry.summary }}</p>
+        {% if entry.highlights %}
+        <ul style="margin: 0px;">
+          {% for highlight in entry.highlights %}
+          <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="four wide right aligned column no-bottom">
+        <p class="ui no-bottom"><b>
+          {% if entry.startDate %}
+          {{ entry.startDate }}
+          {% endif %}
+          {% if entry.startDate and entry.endDate %}
+          -
+          {% endif %}
+          {% if entry.endDate %}
+            {% if entry.endDate != "Present" %}
+              {{ entry.endDate}}
+            {% else %}
+              {{ entry.endDate }}
+            {% endif %}
+          {% endif %}
+        </b></p>
+        <p class="ui no-bottom"><i>{{ entry.location }}</i></p>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
