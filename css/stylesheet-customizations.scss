@@ -7,7 +7,7 @@
 
 // Customize the background color
 body {
-  // background-color: #f2f2f2;;
+  // background-color: #f2f2f2;
 }
 
 // Customize the menubar color
@@ -17,5 +17,42 @@ body {
 
 // Customize the home page icon colors
 .icon-color {
-  // color: silver;
+  color: white;
+}
+
+body {
+  /* Location of the image */
+  background-image: url("https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+  background-image: url("https://images.pexels.com/photos/1287367/pexels-photo-1287367.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  color: white !important;
+}
+
+body {
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23636265' fill-opacity='0.20'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+td, p, h1, h2, h3, h4, h5{
+	color: white !important;	
 }

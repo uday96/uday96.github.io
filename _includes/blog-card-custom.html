@@ -1,7 +1,6 @@
-<!-- Used by theme-projects-custom, entire card is the link. -->
+<!-- Used by theme-essays-builtin-1 -->
 
-
-<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}"
+<a class="card" href="{{ include.page.permalink }}" target="_blank" 
   style="
     overflow: hidden;
     background-image: url({{ site.baseurl }}/{{ include.page.image }});
@@ -28,15 +27,15 @@
       <span class="date">{{ include.page.date | date_to_string }}</span>
     </div>
 
-    <div class="description"
+    <!-- <div class="description"
       style="
         font-weight: 500;" 
     >
-      {{ include.page.summary }}
-    </div>
+      {{ include.page.content | markdownify | strip_html | truncatewords: 40 }}
+    </div> -->
   </div>
 
-  <div class="extra content"
+  <!-- <div class="extra content"
     style="
       background-color: rgba(255,255,255,0.9);
       z-index: 1;" 
@@ -46,6 +45,6 @@
       <div class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
-  </div>
+  </div> -->
 
 </a>
