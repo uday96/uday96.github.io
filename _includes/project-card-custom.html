@@ -1,14 +1,13 @@
 <!-- Used by theme-projects-custom, entire card is the link. -->
 
-
-<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}"
+<a class="card" href="{{ include.page.permalink }}" target="_blank"
   style="
     overflow: hidden;
     background-image: url({{ site.baseurl }}/{{ include.page.image }});
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" 
+    box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);" 
 >
   {% if include.page.image %}
   <div class="image"
@@ -25,7 +24,7 @@
   >
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{{ include.page.date | date_to_string }}</span>
+      <span class="date">{{ include.page.date | date: '%B, %Y' }}</span>
     </div>
 
     <div class="description"

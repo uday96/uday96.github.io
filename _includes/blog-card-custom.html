@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" 
+    box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);" 
 >
   {% if include.page.image %}
   <div class="image"
@@ -24,7 +24,7 @@
   >
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{{ include.page.date | date_to_string }}</span>
+      <span class="date">{{ include.page.date | date: '%B %d, %Y' }}</span>
     </div>
 
     <!-- <div class="description"
