@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/video-captioning.jpg
 title: Video Captioning hLSTMat
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-30

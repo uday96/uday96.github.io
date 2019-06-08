@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/word-probs.jpg
 title: Arithmetic Word Problem Solver
 # All dates must be YYYY-MM-DD format!
 date: 2018-05-30

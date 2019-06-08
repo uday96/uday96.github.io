@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/pr.jpg
 title: Pattern Recognition - Neural Networks
 # All dates must be YYYY-MM-DD format!
 date: 2016-11-30

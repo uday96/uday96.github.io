@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/twitter.jpg
 title: Twitter Streamer
 # All dates must be YYYY-MM-DD format!
 date: 2017-05-25

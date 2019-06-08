@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/dbms.jpg
 title: BloodBankInfo - Database Management System
 # All dates must be YYYY-MM-DD format!
 date: 2017-04-01

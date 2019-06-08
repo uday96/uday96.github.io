@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/regex.jpg
 title: Regular Expression Validator
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-01

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/reverse-delete.jpg
 title: Reverse-Delete Algorithm
 # All dates must be YYYY-MM-DD format!
 date: 2016-05-01

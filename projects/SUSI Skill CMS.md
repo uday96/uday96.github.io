@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/susi-ai.jpg
 title: SUSI Skill CMS
 # All dates must be YYYY-MM-DD format!
 date: 2017-06-10

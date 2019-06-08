@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/networks.jpg
 title: Computer Networks
 # All dates must be YYYY-MM-DD format!
 date: 2017-03-30

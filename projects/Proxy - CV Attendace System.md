@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/proxy.jpg
 title: Proxy - CV Attendace System
 # All dates must be YYYY-MM-DD format!
 date: 2017-05-31

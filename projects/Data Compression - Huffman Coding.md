@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/huffman.jpg
 title: Data Compression - Huffman Coding
 # All dates must be YYYY-MM-DD format!
 date: 2016-04-30

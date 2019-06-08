@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/spell-check.jpg
 title: Context Sensitive Spell Checker
 # All dates must be YYYY-MM-DD format!
 date: 2018-03-30

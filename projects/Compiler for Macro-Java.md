@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/compiler.jpg
 title: Compiler for Macro - Java
 # All dates must be YYYY-MM-DD format!
 date: 2016-10-30
