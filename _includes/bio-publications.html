@@ -1,0 +1,51 @@
+<!-- Used by theme-bio-builtin-1 -->
+
+{% if site.data.bio.publications %}
+<div class="row">
+  <div class="two wide column">
+    <h3 class="ui left aligned header no-bottom">Publications</h3>
+  </div>
+
+  <div class="fourteen wide column no-bottom">
+    {% for entry in site.data.bio.publications %}
+
+    <div class="ui grid">
+      <div class="twelve wide column no-bottom">
+        <div class="ui accordion">
+          <div class="title {% if forloop.index == 1 %}active{% endif %}">
+            <table class="ui no-bottom">
+              <tr>
+                <td style="vertical-align: top;"><i class="dropdown icon"></i></td>
+                <td><b>{{ entry.name }}</b></td>
+              </tr>
+            </table>
+            <p class="ui no-bottom" style="margin-left: 1.5em;">{{ entry.publisher }}</p>
+            <p class="ui no-bottom" style="margin-left: 1.5em;"><em>{{ entry.author }}</em></p>
+            <p class="ui no-bottom" style="margin-left: 1.5em;">
+              <a href="{{ entry.website }}" target="_blank">
+                {{ entry.website | remove: "http://" | remove: "https://"}}
+              </a>
+            </p>
+          </div>
+          <div class="content {% if forloop.index == 1 %}active{% endif %}">
+            {% if entry.highlights %}
+            <ul style="margin: 0px;">
+              {% for highlight in entry.highlights %}
+              <li>{{ highlight }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="four wide right aligned column no-bottom">
+        <p class="ui no-bottom"><b>
+          {{ entry.releaseDate }}
+        </b></p>
+      </div>
+    </div>
+
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
