@@ -10,5 +10,5 @@ labels:
   - JavaScript
   - Data Analytics
 permalink: https://github.com/uday96/DataVisualisation-D3JS
-summary: Analysis using D3.js Bar Graphs for Sector-wise Physical Performance of Districts in India - Based on Sample Survey, 2010.
+summary: Analysis using D3.js Bar Graphs for Sector-wise Physical Performance of Districts in India.
 ---

@@ -9,7 +9,6 @@ labels:
   - Kafka
   - Django
   - Python
-  - Data Analytics
 permalink: https://github.com/uday96/TwitterStreamer
 summary: Twitter Play - Kafka filters the real-time tweets based on the keywords and location and visualises on a map.
 ---

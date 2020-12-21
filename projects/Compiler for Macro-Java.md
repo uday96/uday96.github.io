@@ -7,8 +7,6 @@ title: Compiler for Macro - Java
 date: 2016-10-30
 labels:
   - Java
-  - JavaCC
-  - JTB
   - Flex
   - Bison
   - Compiler

@@ -10,5 +10,5 @@ labels:
   - Python
   - Computer Vision
 permalink: https://github.com/uday96/Proxy
-summary: Django web application that uses face recognition to identify students from images of the class and record attendance.
+summary: Uses face recognition to identify students from images of the class and record attendance.
 ---
